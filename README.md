@@ -17,6 +17,13 @@ configs/
     ├── yolov8_s_carclass.py # cctv v8s
     ├── yolov8_x_visdrone.py # visdrone v8s
     └── ... (持续更新)
+└── ultralytics/ 
+    ├── cfg/ 
+    ├──── carclass.yaml  # dataset config 
+    ├── train/ # 建议里面的文件拿出来放在与ultralytics包相同的文件下使用
+    ├──── train_detr.py
+    ├──── train_yolo.py  
+    └── ... (持续更新)
 ```
 - **预训练模型**: YOLO全系列
 - **数据集适配**: COCO/yolo 开箱即用
