@@ -26,7 +26,7 @@ configs/
     └── ... (持续更新)
 ```
 - **预训练模型**: YOLO全系列
-- **数据集适配**: COCO/yolo 开箱即用
+- **数据集适配**: COCO/YOLO 开箱即用
 - **优化策略**: 学习率warmup、EMA、SyncBN 等最佳实践集成
 
 ---
@@ -36,8 +36,8 @@ configs/
 ### 框架扩展
 | 框架          | 进度      | 特性预告                          |
 |---------------|-----------|----------------------------------|
-| MMDetection   | 🔜 2 2024 | RNN-based, DETR-base等方法 |
-| Ultralytics   | 🔜 3 2024 | YOLOv10/YOLO11/RT-DETR 官方配置迁移,  包括一些基于ultralytics开发的       |
+| MMDetection   | 🔜 2 2025 | RNN-based, DETR-base等方法 |
+| Ultralytics   | 🔜 3 2025 | YOLOv10/YOLO11/RT-DETR 官方配置迁移,  包括一些基于ultralytics开发的       |
 
 ### 未来升级
 - [ ] 新增 `docker/` 目录提供多框架训练环境
