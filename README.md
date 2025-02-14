@@ -4,7 +4,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Flulike/Config?style=social)](https://github.com/Flulike/Config)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Flulike/Config/pulls)
 
-统一收集与分享深度学习训练配置，涵盖 **目标检测/实例分割** 等任务，支持多框架迁移与快速复现。
+统一收集与分享深度学习训练配置，主要实现 **目标检测** 任务，支持多框架迁移与快速复现。
 
 ---
 
