@@ -1,0 +1,16 @@
+path: /home/guo/dataset/VisDrone_yolo
+train: /home/guo/dataset/VisDrone_yolo/train
+val: /home/guo/dataset/VisDrone_yolo/val
+test: /home/guo/dataset/VisDrone_yolo/test
+
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: awning-tricycle
+  7: bus
+  8: motor
+  9: others
