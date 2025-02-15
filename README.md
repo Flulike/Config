@@ -18,7 +18,9 @@ configs/
     ├── yolov8_x_visdrone.py # visdrone v8s
     └── ... (持续更新)
 └── ultralytics/ 
-    ├── cfg/ 
+    ├── cfg/
+    ├──── carclass.yaml
+    ├──── visdrone.yaml  
     ├──── carclass.yaml  # dataset config 
     ├── train/ # 建议里面的文件拿出来放在与ultralytics包相同的文件下使用
     ├──── train_detr.py
