@@ -25,10 +25,10 @@ configs/
     ├──── carclass.yaml
     ├──── visdrone.yaml  
     ├──── carclass.yaml  # dataset config 
-    ├── train/ # 建议里面的文件拿出来放在与ultralytics包相同的文件下使用
+    ├── train/ # 建议里面的文件拿出来放在与ultralytics包相同的文件夹下使用
     ├──── train_detr.py
     ├──── train_yolo.py
-    ├──── train_uavdetr.py # From the paper  
+    ├──── train_uavdetr.py # From the paper UAV-DETR, based on ultralytics. If you want to use ultralytics to run this file, make sure edit the task.py and block.py in ultralytics.
     └── ... (持续更新)
 ```
 - **预训练模型**: YOLO全系列
