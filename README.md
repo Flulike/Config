@@ -14,6 +14,9 @@
 ```text
 configs/
 └── mmyolo/
+    ├── remdet_s.py # from the paper RemDet, based on mmdetection and mmyolo. As a result, we need to try to merge the module both mmdetection and mmyolo.
+    └── ... (持续更新)
+└── mmyolo/
     ├── yolov8_s_carclass.py # cctv v8s
     ├── yolov8_x_visdrone.py # visdrone v8s
     └── ... (持续更新)
